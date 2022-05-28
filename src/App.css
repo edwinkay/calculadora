@@ -1,0 +1,35 @@
+
+.App{
+  background-color: #1b1b23;
+}
+
+.titulo{
+   color: white;
+   text-align: center;
+}
+
+.contenedor{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.contenedor-calculadora{
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: cadetblue;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+.fila{
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
